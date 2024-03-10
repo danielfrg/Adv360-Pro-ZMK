@@ -1,3 +1,9 @@
+macro_hyper: macro_hyper{
+compatible = "zmk,behavior-macro";
+label = "macro_hyper";
+#binding-cells = <0>;
+bindings = <&mt LGUI ESC>, <&mt LCTRL undefined>, <&mt LALT undefined>, <&mt LSHIFT undefined>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
